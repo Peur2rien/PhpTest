@@ -21,3 +21,8 @@ steps:
 
 - script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
+- task: SonarQubePrepare@5
+  inputs:
+    SonarQube: 'SONAR VM'
+    scannerMode: 'CLI'
+    configMode: 'file'
