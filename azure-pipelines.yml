@@ -24,5 +24,6 @@ steps:
 - task: SonarQubePrepare@5
   inputs:
     SonarQube: 'SONAR VM'
-    scannerMode: 'CLI'
-    configMode: 'file'sqp_3fc99dbb026540eb325aca7e7bd32405b11ae000
+    scannerMode: 'MSBuild'
+    projectKey: 'TNR_TNR_AYMWl4jJUMFuhUgptSQ'
+    projectName: 'TNR'
