@@ -25,4 +25,4 @@ steps:
   inputs:
     SonarQube: 'SONAR VM'
     scannerMode: 'CLI'
-    configMode: 'file'
+    configMode: 'file'sqp_3fc99dbb026540eb325aca7e7bd32405b11ae000
